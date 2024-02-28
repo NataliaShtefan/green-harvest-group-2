@@ -1,4 +1,4 @@
-<section class="order">
+<section class="section container order">
   
   <h2 class="order-title">
     Fresh <span class="order-title-span">Harvest</span> Box has got you covered
@@ -31,7 +31,7 @@
             <label class="order-form-element" for="user-email">    
               <input 
                 class="order-form-input" 
-                type="text"
+                type="email"
                 name="user-email"
                 id="user-email"
                 placeholder="Email"
@@ -39,7 +39,7 @@
               />    
             </label>
   
-            <label class="order-form-element" for="user-comment">    
+            <label class="order-form-element-comment" for="user-comment">    
               <textarea 
                 class="order-form-comment" 
                 name="user-comment"
@@ -53,15 +53,25 @@
         </form>
       </div>
   
-      <div>
+      <div class="socials">
         <picture>
-          <source media="(min-width: 1280)" srcset="../img/Order-1x.jpg 1x, ../img/Order-2x.jpg 2x" />
-          <img src="../img/Order-1x.jpg" alt="Making Smoothie" width="528">
+          <source media="(min-width: 1280)" srcset="../img/Order-mob-1x.jpg 1x, ../img/Order-mob-2x.jpg 2x" />
+          <img class="socials-picture" src="../img/Order-mob-1x.jpg" alt="Making Smoothie" width="528">
         </picture>
   
-        <p>Follow us on our social networks:</p>
+        <p class="socials-text">Follow us on our social networks:</p>
   
-        <a href="">instagram</a> / <a href="">facebook</a> / <a href="">youtube</a>
+        <p class="socials-links">
+          <a class="socials-link" href="">
+            instagram          
+          </a> / 
+          <a class="socials-link" href="">
+            facebook
+          </a> / 
+          <a class="socials-link" href="">
+            youtube
+          </a>
+        </p>
       </div>
     </div>
 </section>
