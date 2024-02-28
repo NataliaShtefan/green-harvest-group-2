@@ -1,0 +1,72 @@
+.order {
+  background-color: rgba(122, 49, 69, 1);
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.order-title {
+  color: #FBFBFB;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+}
+
+.order-title-span {
+  color: #rgba(251, 251, 251, 0.30);
+}
+
+.order-text {
+  color: #FBFBFB;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+}
+
+.part-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-form-area {
+  border-radius: 30px;
+  background: #FBFBFB;
+  padding: 40px 20px;
+}
+
+.order-form-text {
+  
+}
+
+.order-form-from-us {
+
+}
+
+.order-form-the-form {
+
+}
+
+.order-form {
+  
+}
+
+.order-form-element {
+
+}
+
+.order-form-input {
+
+}
+
+.order-form-comment {
+
+}
+
+.form-button {
+
+}
