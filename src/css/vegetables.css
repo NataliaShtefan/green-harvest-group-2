@@ -2,6 +2,10 @@
   background-color: #7a3145;
 }
 
+/* .veget-container {
+  max-width: 320px;
+} */
+
 .veget-title {
   font-weight: 600;
   font-size: 48px;
@@ -29,8 +33,8 @@
   background-color: #fbfbfb;
   border-radius: 40px;
   padding: 32px 26px;
-  width: 334px;
-  height: 379px;
+  /* width: 334px;
+  height: 379px; */
   margin-bottom: 20px;
 }
 
@@ -53,6 +57,17 @@
   margin-bottom: 14px;
 }
 
+@media screen and (min-width: 375px) {
+  .container {
+    margin-left: 0;
+  }
+
+  /* .veget-item-title,
+  .veget-item-text,
+  .veget-list {
+    width: 335px;
+  } */
+}
 
 @media screen and (min-width: 768px) {
   .veget-title {
