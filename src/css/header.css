@@ -1,6 +1,14 @@
 .header {
+  position: absolute;
+  top: 20px;
   padding: 0 20px;
-  background-color: #576f35;
+  width: 100%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .header {
+    max-width: 375px;
+  }
 }
 
 .header .container {
@@ -14,10 +22,6 @@
   margin-right: 4px;
   align-items: center;
   fill: #fbfbfb;
-}
-
-.logo-container {
-  margin-right: auto;
 }
 
 .logo {
@@ -39,7 +43,10 @@
   padding: 0;
   background-color: transparent;
   display: flex;
-  margin: auto;
+}
+
+.btn-menu-container {
+  margin-left: auto; /* Притискаємо контейнер до правого краю */
 }
 
 .mobile-container {
