@@ -6,9 +6,9 @@
 .hero-bg {
   height: 370px;
   background-image: linear-gradient(
-      0deg,
-      rgba(20, 20, 20, 0.2) 0%,
-      rgba(20, 20, 20, 0.2) 100%
+      to bottom,
+      rgba(20, 20, 20, 0.2),
+      rgba(20, 20, 20, 0.2)
     ),
     url(../img/hero-img/bg-mob.jpg);
   background-repeat: no-repeat;
@@ -22,9 +22,9 @@
   (min-resolution: 2dppx) {
   .hero-bg {
     background-image: linear-gradient(
-        0deg,
-        rgba(20, 20, 20, 0.2) 0%,
-        rgba(20, 20, 20, 0.2) 100%
+        to bottom,
+        rgba(20, 20, 20, 0.2),
+        rgba(20, 20, 20, 0.2)
       ),
       url(../img/hero-img/bg-mob-2x.jpg);
   }

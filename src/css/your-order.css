@@ -108,7 +108,7 @@
 }
 
 .order-form-input:focus::placeholder {
-  color: #7a3145;
+  /* color: #7a3145; */
 }
 
 .order-form-element-comment {
@@ -150,7 +150,7 @@
 }
 
 .order-form-comment:focus::placeholder {
-  color: #7a3145;
+  /* color: #7a3145; */
 }
 
 .form-button {
