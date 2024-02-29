@@ -20,7 +20,8 @@
   }
 
   .icon-first {
-    width: 30px;
+    min-width: 18px;
+    min-height: 18px;
   }
 }
 
