@@ -3,12 +3,18 @@
   top: 20px;
   padding: 0 20px;
   width: 100%;
-  background-color: #576f35;
+}
+
+.nav-container {
+  display: none;
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .header {
     max-width: 375px;
+  }
+  .nav-container {
+    display: none;
   }
 }
 
@@ -17,6 +23,10 @@
     max-width: 768px;
     padding: 0 32px;
     top: 32px;
+  }
+
+  .nav-container {
+    display: none;
   }
 
   .icon-first {
@@ -82,10 +92,35 @@
 
 @media screen and (min-width: 1280px) {
   .header {
-    min-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1280px;
+    padding: 0 100px;
+    top: 32px;
+  }
+
+  .container {
+    margin: 0;
   }
   .mobile-container.is-open {
     display: none;
+  }
+
+  .btn-menu {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-container {
+    display: flex;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
   }
 }
 
