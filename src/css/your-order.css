@@ -233,8 +233,9 @@
   line-height: 1.08;
   letter-spacing: -0.015em;
   display: flex;
-  flex-direction: row;
-  gap: 25px;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 25px;
 }
 
 .social-link-li {
