@@ -3,11 +3,30 @@
   top: 20px;
   padding: 0 20px;
   width: 100%;
+  background-color: #576f35;
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .header {
     max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .header {
+    min-width: 768px;
+    padding: 0 32px;
+    top: 32px;
+  }
+
+  .icon-first {
+    width: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    min-width: 1280px;
   }
 }
 
@@ -35,7 +54,7 @@
 
 .menu-icon {
   stroke: #fbfbfb;
-  padding: 8px auto;
+  padding: 4px auto;
 }
 
 .btn-menu {
@@ -68,7 +87,7 @@
   pointer-events: none;
 }
 
-.mobile-container.is-open {
+.mobile-container. {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
