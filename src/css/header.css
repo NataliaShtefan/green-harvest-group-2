@@ -23,6 +23,10 @@
     min-width: 18px;
     min-height: 18px;
   }
+  .icon {
+    min-width: 168px;
+    min-height: 15px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
