@@ -19,15 +19,16 @@
   line-height: 1.5;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
-}
-
 .icon {
   fill: #fbfbfb;
 }
 
 .menu-icon {
-  fill: #fbfbfb;
+  stroke: #fbfbfb;
+}
+
+.btn-menu {
+  background-color: transparent;
+  border: none;
+  flex-shrink: 0;
 }
