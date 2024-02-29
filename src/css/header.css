@@ -1,7 +1,11 @@
 .header {
-  padding: 20px 0;
+  padding: 0 20px;
+  background-color: #576f35;
 }
 
+.header .container {
+  padding: 0;
+}
 .nav-list {
   display: flex;
   align-items: center;
@@ -18,4 +22,12 @@
 .nav-link:hover,
 .nav-link:focus {
   color: #747bff;
+}
+
+.icon {
+  fill: #fbfbfb;
+}
+
+.menu-icon {
+  fill: #fbfbfb;
 }
