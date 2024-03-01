@@ -141,7 +141,6 @@
   flex-direction: column;
   margin-bottom: 20px;
 }
-
 .order-form-comment {
   padding: 14px 16px;
   gap: 10px;
@@ -232,10 +231,9 @@
   line-height: 1.08;
   letter-spacing: -0.015em;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 25px;
   row-gap: 8px;
+  column-gap: 25px;
 }
 
 .social-link-li {
