@@ -42,6 +42,9 @@
 }
 
 @media screen and (min-width: 375px) {
+  .taste {
+    width: 375px;
+  }
   .advertisement {
     width: 355px;
     flex-shrink: 0;
