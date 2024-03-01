@@ -2,7 +2,6 @@
   background-color: #7a3145;
 }
 
-
 .veget-title {
   font-weight: 600;
   font-size: 48px;
@@ -24,7 +23,6 @@
   color: #fbfbfb;
   margin-bottom: 40px;
 }
-
 
 .veget-list-item {
   background-color: #fbfbfb;
@@ -53,7 +51,8 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  .veget-section {
+    min-width: 375px;
     margin-left: 0;
   }
 
@@ -61,6 +60,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .veget-section {
+    min-width: 768px;
+  }
   .veget-title {
     font-size: 64px;
     line-height: 1;
@@ -77,8 +79,8 @@
   .veget-list {
     display: flex;
     flex-wrap: wrap;
-column-gap: 20px;
-row-gap: 28px;
+    column-gap: 20px;
+    row-gap: 28px;
   }
 
   .veget-list-item {
