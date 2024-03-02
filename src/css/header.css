@@ -14,6 +14,14 @@
   }
 }
 
+@media screen and (max-width: 1279px) {
+  .nav-container-desctop {
+    display: none;
+  }
+}
+
+/* початок @media */
+
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .header {
     max-width: 768px;
@@ -86,6 +94,10 @@
   } */
 }
 
+/* кінець @media */
+
+/* початок @media */
+
 @media screen and (min-width: 1280px) {
   .header {
     max-width: 1280px;
@@ -95,22 +107,18 @@
 
   .container {
     display: flex;
-    flex-direction: row;
-  }
-
-  .mobile-container.is-open {
-    display: none;
+    justify-content: space-between;
   }
 
   .nav-container-desctop {
     display: flex;
-    flex-direction: row;
   }
-  .nav-list {
+  .nav-list-desc {
     display: flex;
-    flex-direction: row;
   }
-  .nav-list {
+  .nav-list-desc {
+    display: flex;
+    gap: 8px;
   }
 
   .btn-menu {
@@ -119,7 +127,12 @@
   .menu-icon {
     display: none;
   }
+
+  .mobile-container.is-open {
+    display: none;
+  }
 }
+/* кінець @media */
 
 .header .container {
   display: flex;
