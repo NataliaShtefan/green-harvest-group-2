@@ -1,5 +1,6 @@
 .section-bg {
   background-color: #576f35;
+  max-width: 375px;
 }
 
 .container-img {
@@ -60,7 +61,7 @@
   font-weight: 600;
   font-size: 28px;
   line-height: 1;
-  letter-spacing: 0.015em;
+  letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
 }
@@ -127,6 +128,10 @@
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.6);
+}
+
+ol li:last-child {
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
