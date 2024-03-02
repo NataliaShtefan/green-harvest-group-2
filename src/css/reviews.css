@@ -128,6 +128,12 @@
 
 @media screen and (min-width: 1280px) {
 
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .reviews-card-list {
     gap: 25px;
 }
