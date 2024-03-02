@@ -1,34 +1,40 @@
 .header {
   position: absolute;
   top: 20px;
-  padding: 0 20px;
   width: 100%;
 }
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
-  .header {
-    max-width: 375px;
-  }
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-container-desctop {
     display: none;
   }
 }
 
+@media screen and (max-width: 1279px) {
+  .nav-container-desctop {
+    display: none;
+  }
+}
+
+/* початок @media */
+
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .header {
-    max-width: 768px;
     padding: 0 32px;
     top: 32px;
   }
-
+  .container {
+    max-width: 768px;
+  }
   .nav-container-desctop {
     display: none;
   }
 
-  .icon-first {
-    min-width: 18px;
-    min-height: 18px;
-  }
   .icon {
     min-width: 168px;
     min-height: 15px;
@@ -86,31 +92,46 @@
   } */
 }
 
+/* кінець @media */
+
+/* початок @media */
+
 @media screen and (min-width: 1280px) {
   .header {
-    max-width: 1280px;
-    padding: 0 100px;
+    display: flex;
     top: 32px;
+    padding: 0 100px;
   }
 
   .container {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .mobile-container.is-open {
-    display: none;
+    max-width: 1280px;
   }
 
   .nav-container-desctop {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    margin-left: 440px;
   }
-  .nav-list {
+
+  .nav-list-desc {
     display: flex;
-    flex-direction: row;
+    gap: 8px;
+    margin-right: 20px;
   }
-  .nav-list {
+
+  .nav-link-desc {
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px;
+    color: #fbfbfb;
+  }
+
+  .btn-shop-desc {
+    border-radius: 30px;
+    border: none;
+    padding: 16px 32px;
+    background-color: #7a3145;
+    color: #fbfbfb;
   }
 
   .btn-menu {
@@ -119,7 +140,12 @@
   .menu-icon {
     display: none;
   }
+
+  .mobile-container.is-open {
+    display: none;
+  }
 }
+/* кінець @media */
 
 .header .container {
   display: flex;
@@ -128,18 +154,7 @@
   padding: 0;
 }
 
-.icon-first {
-  margin-right: 4px;
-  align-items: center;
-  fill: #fbfbfb;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.icon {
+.icon-logo {
   fill: #fbfbfb;
 }
 

@@ -2,33 +2,15 @@
   background: #fbfbfb;
 }
 
-.enother {
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.advertisement {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 12px;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(87, 111, 53, 1),
-    rgba(87, 111, 53, 1)
-  );
-}
 .text-one {
   color: #fbfbfb;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 1.04; /* 104.167% */
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
   border-radius: 12px;
-  padding-right: 10px;
-  padding-left: 10px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #576f35;
+  margin: 0 -10px;
+  padding: 0 10px;
 }
 .text-two {
   color: #141414;
@@ -43,12 +25,9 @@
 
 @media screen and (min-width: 375px) {
   .taste {
-    width: 375px;
+    min-width: 375px;
   }
-  .advertisement {
-    width: 355px;
-    flex-shrink: 0;
-  }
+
   .text-one {
     width: 335px;
   }
@@ -59,21 +38,14 @@
 }
 
 @media screen and (min-width: 768px) {
-  .enother {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .advertisement {
-    width: 704px;
-    height: 100%;
-  }
-
   .text-one {
-    width: 704px;
+    min-width: 704px;
     padding-left: 16px;
     padding-right: 16px;
     font-size: 64px;
     line-height: 1.09;
+    margin: 0 -16px;
+    padding: 0 16px;
   }
 
   .text-two {
@@ -90,11 +62,6 @@
     padding-left: 100px;
     padding-right: 100px;
   }
-  .advertisement {
-    display: inline-flex;
-    height: 86px;
-    width: 808px;
-  }
 
   .text-two {
     display: inline;
@@ -105,9 +72,11 @@
   }
 
   .text-one {
-    width: 100%;
+    display: inline-flex;
+    min-width: 808px;
     font-size: 76px;
     line-height: 1.05;
     padding: 0 13px;
+    margin-right: 7px;
   }
 }
