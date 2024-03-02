@@ -23,15 +23,6 @@
   }
 }
 
-@media screen and (min-width: 375px) {
-}
-
-@media screen and (min-width: 768px) {
-}
-
-@media screen and (min-width: 1280px) {
-  .hero-container {
-  }
 
   .title {
     display: flex;
@@ -187,13 +178,14 @@
     font-size: 16px;
     line-height: 1.25em;
     padding-bottom: 50px;
+    margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero-txt {
     max-width: 472px;
-    margin-bottom: 0;
     padding-right: 30px;
   }
 }
+/* Finish */
