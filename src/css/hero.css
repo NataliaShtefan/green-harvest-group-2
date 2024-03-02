@@ -24,12 +24,14 @@
 }
 
 
+@media screen and (min-width: 1280px) {
+
   .title {
     display: flex;
     padding: 0;
     justify-content: space-between;
   }
-
+}
 
 .hero-bg {
   height: 370px;
