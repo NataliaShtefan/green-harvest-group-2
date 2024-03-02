@@ -3,10 +3,16 @@
 
         <div class="container-img">
             <h2 class="visually-hidden">vegetable basket</h2>
-            <img class="steps-picture" srcset="
-                  ./img/how-it-works/how-mob-1x.jpg 1x,
-                  ./img/how-it-works/how-mob-2x.jpg  2x" src="./img/how-it-works/how-mob-1x.jpg"
-                alt="a woman cuts fruit" width="335px" height="450px;" />
+            <picture>
+                <source media="(min-width: 1280px)"
+                    srcset="./img/how-it-works/how-desktop-1x.jpg 1x, ./img/how-it-works/how-desktop--2x.jpg 2x" />
+                <source media="(min-width: 768px)"
+                    srcset="./img/how-it-works/how-tab-1x.jpg 1x, ./img/how-it-works/how-tab-2x.jpg 2x" />
+                <source media="(max-width: 767px)"
+                    srcset="./img/how-it-works/how-mob-1x.jpg 1x, ./img/how-it-works/how-mob-2x.jpg 2x" />
+                <img class="steps-picture" src="./img/how-it-works/how-mob-1x.jpg" alt="a woman cuts fruit" width="335"
+                    height="450" />
+            </picture>
         </div>
 
         <div class="container-step">
