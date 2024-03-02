@@ -25,12 +25,17 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0em;
 text-align: left;
+color: rgba(251, 251, 251, 1);
+
 }
 
 .section-list-container{
     margin-top: 40px;
     
 
+}
+.anchor{
+    color: rgba(251, 251, 251, 1);
 }
 .local-links-list{
     display: flex;
@@ -66,6 +71,7 @@ text-align: left;
 }
 .tel-address-link{
     max-width: 179px;
+    color: rgba(251, 251, 251, 1);
 }
 
 .priv-pol-container{
