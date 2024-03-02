@@ -6,7 +6,7 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 1.04;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   color: #fbfbfb;
   margin-bottom: 20px;
@@ -35,16 +35,16 @@
   font-weight: 600;
   font-size: 28px;
   line-height: 1;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   color: #7a3145;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 .veget-item-text {
   font-weight: 600;
   font-size: 14px;
   line-height: 1.29;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   color: #141414;
   margin-bottom: 14px;
@@ -54,8 +54,6 @@
   .veget-section {
     min-width: 375px;
   }
-
-
 }
 
 @media screen and (min-width: 768px) {
@@ -91,7 +89,6 @@
 
   .veget-item-title {
     font-size: 32px;
-    margin-bottom: 18px;
   }
 
   .veget-item-text {
@@ -100,7 +97,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-
   .veget-title {
     margin-bottom: 25px;
   }
@@ -115,10 +111,6 @@
 
   .veget-list-item {
     padding: 32px;
-      width: calc((100% - 42px) / 3);
-  }
-
-  .veget-item-title {
-    margin-bottom: 12px; 
+    width: calc((100% - 42px) / 3);
   }
 }

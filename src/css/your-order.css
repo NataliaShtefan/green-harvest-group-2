@@ -14,7 +14,6 @@
   letter-spacing: -0.015em;
   text-transform: uppercase;
   margin-bottom: 29px;
-
 }
 
 .order-title-span {
@@ -246,131 +245,122 @@
   right: -18px;
 }
 
-
-
 @media screen and (min-width: 375px) {
+  .order-form-area {
+    width: 335px;
+  }
 
-.order-form-area {
-  width: 335px;
+  .socials {
+    width: 335px;
+  }
 }
-
-.socials {
-  width: 335px;
-}
-}
-
-
 
 @media screen and (min-width: 768px) {
+  .order-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 25px;
+    width: 640px;
+  }
 
-.order-title {
-  font-size: 64px;
-  line-height: 1;
-  margin-bottom: 25px;
-  width: 640px;
+  .order-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+    width: 640px;
+  }
+
+  .part-2 {
+    gap: 25px;
+  }
+
+  .order-form-area {
+    padding: 50px 100px;
+    gap: 50px;
+    width: 628px;
+  }
+
+  .order-form-input {
+    height: 52px;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .order-form-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .order-form-element-comment {
+    margin-bottom: 25px;
+  }
+
+  .order-form-comment {
+    padding: 16px;
+    height: 95px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .order-form-comment::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .form-button {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+
+  .socials {
+    padding: 50px;
+    width: 628px;
+  }
+
+  .socials-picture {
+    margin-bottom: 50px;
+  }
+
+  .socials-text {
+    font-size: 18px;
+    line-height: 1.11;
+    margin-bottom: 15px;
+  }
+
+  .socials-links {
+    font-size: 32px;
+    line-height: 1;
+    column-gap: 35px;
+  }
+
+  .social-link-li:not(:last-child)::after {
+    right: -23px;
+  }
 }
-
-.order-text {
-  font-size: 16px;
-  line-height: 1.25;
-  margin-bottom: 50px;
-  width: 640px;
-}
-
-.part-2 {
-  gap: 25px;
-}
-
-.order-form-area {
-  padding: 50px 100px;
-  gap: 50px;
-  width: 628px;
-}
-
-.order-form-input {
-  height: 52px;
-  padding: 16px;
-  font-size: 16px;
-  line-height: 1.25;
-}
-
-.order-form-input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-}
-
-.order-form-element-comment {
-  margin-bottom: 25px;
-}
-
-.order-form-comment {
-  padding: 16px;
-  height: 95px;
-  font-size: 16px;
-  line-height: 1.25;
-}
-
-.order-form-comment::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-}
-
-.form-button {
-  font-size: 18px;
-  line-height: 1.11;
-}
-
-.socials {
-  padding: 50px;
-  width: 628px;
-}
-
-.socials-picture {
-  margin-bottom: 50px;
-}
-
-.socials-text {
-  font-size: 18px;
-  line-height: 1.11;
-  margin-bottom: 15px;
-}
-
-.socials-links {
-  font-size: 32px;
-  line-height: 1;
-  column-gap: 35px;
-}
-
-.social-link-li:not(:last-child)::after {
-  right: -23px;
-}
-}
-
-
 
 @media screen and (min-width: 1280px) {
+  .order-title {
+    width: 751px;
+  }
 
-.order-title {
-  width: 751px;
-}
+  .order-text {
+    width: 742px;
+  }
 
-.order-text {
-  width: 742px;
-}
+  .part-2 {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 24px;
+  }
 
-.part-2 {
-  flex-direction: row;
-  align-items: stretch;
-  gap: 24px;
-}
+  .order-form-area {
+    padding: 50px;
+    gap: 50px;
+    width: 529px;
+  }
 
-.order-form-area {
-  padding: 50px;
-  gap: 50px;
-  width: 529px;
-}
-
-.socials {
-  width: 527px;
-}
+  .socials {
+    width: 527px;
+  }
 }
