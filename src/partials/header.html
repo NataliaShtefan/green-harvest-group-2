@@ -1,35 +1,46 @@
 <header class="header">
   <div class="container">
     <div class="logo-container">
-      <a class="logo" href="./header.html">
-        <svg class="icon-first" width="16" height="16">
-          <use href="../img/icons.svg#icon-logo"></use></svg
-        ><svg class="icon" width="146" height="12">
-          <use href="../img/icons.svg#icon-logo-mobile"></use></svg
-      ></a>
+      <a class="logo" href="./index.html">
+        <img
+          class="logo-img"
+          src="./img/logo.svg"
+          alt="logo"
+          width="194"
+          height="18"
+      /></a>
     </div>
-
+    <nav class="nav-container-desctop">
+      <ul class="nav-list-desctop">
+        <li>
+          <a class="nav-link-desctop" href="#hiv">How It Works</a>
+        </li>
+        <li><a class="nav-link-desctop" href="#vegetables">Vegetables</a></li>
+        <li><a class="nav-link-desctop" href="#reviews">Reviews</a></li>
+      </ul>
+      <button class="btn-shop-desctop" type="button">Shop now</button>
+    </nav>
     <div class="btn-menu-container">
-      <button class="btn-menu" type="button" onclick="location.href='#menu-on'">
+      <button class="btn-menu" type="button" data-menu-open>
         <svg class="menu-icon" width="32" height="32">
-          <use href="../img/icons.svg#icon-menu"></use>
+          <use href="./img/icons.svg#icon-menu"></use>
         </svg>
       </button>
     </div>
   </div>
 </header>
-<div class="tablet-menu-wrap">
+<div class="tablet-menu-wrap" data-menu>
   <div id="menu-on" class="mobile-container">
-    <button class="btn-close" type="button">
+    <button class="btn-close" type="button" data-menu-close>
       <svg class="icon-menu-close" width="32" height="32" viewBox="0 0 32 32">
-        <use href="../img/icons.svg#icon-close"></use>
+        <use href="./img/icons.svg#icon-close"></use>
       </svg>
     </button>
     <nav class="nav-container">
       <ul class="nav-list">
-        <li><a class="nav-link first" href="#How It Works">How It Works</a></li>
-        <li><a class="nav-link second" href="#Vegetables">Vegetables</a></li>
-        <li><a class="nav-link third" href="#Reviews">Reviews</a></li>
+        <li><a class="nav-link" href="#hiv">How It Works</a></li>
+        <li><a class="nav-link" href="#vegetables">Vegetables</a></li>
+        <li><a class="nav-link" href="#reviews">Reviews</a></li>
       </ul>
     </nav>
     <div class="btn-shop-container">

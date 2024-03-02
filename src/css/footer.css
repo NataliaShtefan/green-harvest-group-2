@@ -1,0 +1,213 @@
+footer{
+    background-color:  #7A3145;
+    min-width: 375px;
+    height: auto;
+    padding: 40px 0px 40px;
+ }
+
+.logo-par-container{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.logo-svg{
+fill: #ffffff;
+}
+.logo-tab-des{
+    display: none;
+}
+
+.footer-par{
+    font-family: 'Inter Tight';
+font-size: 14px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(251, 251, 251, 1);
+
+}
+
+.section-list-container{
+    margin-top: 40px;
+    
+
+}
+.anchor{
+    color: rgba(251, 251, 251, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.anchor:hover,
+.anchor:focus{
+    color: #576f57;
+    border-bottom: 1px solid #576f57;
+}
+.local-links-list{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.local-links-items{
+    font-family: 'Inter Tight';
+font-size: 28px;
+font-weight: 600;
+letter-spacing: -0.015em;
+text-align: left;
+}
+.tel-add{
+    margin-top: 40px;
+    max-width: 215px;
+   
+}
+.tel-address{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+   
+}
+
+.tel-address-items{
+    font-family: 'Inter Tight';
+font-size: 14px;
+font-weight: 600;
+line-height: 1.2;
+letter-spacing: -0.015em;
+text-align: left;
+}
+.tel-address-link{
+    max-width: 179px;
+    color: rgba(251, 251, 251, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.tel-address-link:hover,
+.tel-address-link:focus{
+    color: #576f57;
+    border-bottom: 1px solid #576f57
+}
+
+
+.priv-pol-container{
+    margin-top: 80px;
+}
+
+.priv-pol-list{
+    display: flex;
+    justify-content: space-between;
+}
+.priv-pol{
+    font-family: 'Inter Tight';
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.015em;
+text-align: left;
+color: rgba(251, 251, 251, 0.5);
+}
+
+
+@media screen and (min-width: 768px){
+footer{
+    min-width: 768px;
+    padding: 32px 0px 32px;
+}
+.logo-svg{
+    display: none;
+}
+.logo-tab-des{
+    display: inline;
+}
+.container{
+    min-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.tablet-position-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.section-list-container{
+    margin-top: 0px;
+}
+.first-container{
+max-width: 265px;
+
+}
+.logo-par-container{
+    gap: 25px;
+}
+.footer-par{
+    font-family: 'Inter Tight';
+font-size: 16px;
+font-weight: 500;
+line-height: 1.2;
+text-align: left;
+}
+.local-links-list{
+    gap: 25px;
+}
+.local-links-items{
+    font-family: 'Inter Tight';
+font-size: 32px;
+font-weight: 600;
+letter-spacing: -0.015em;
+text-align: left;
+
+}
+.tel-address-items{
+    font-family: 'Inter Tight';
+font-size: 18px;
+font-weight: 600;
+line-height: 1.2;
+letter-spacing: -0.015em;
+text-align: left;
+}
+e
+.tel-address{
+    gap: 25px;
+    margin-top: 64px;
+}
+.priv-pol{
+    font-family: 'Inter Tight';
+font-size: 18px;
+font-weight: 500;
+line-height: 1.1;
+letter-spacing: -0.015em;
+text-align: left;
+}
+.priv-pol-container{
+    margin-top: 100px;
+}
+}
+
+
+@media screen and (min-width: 1280px) {
+footer{
+        min-width: 1280px;
+        padding: 50px 0px;
+}
+.des-position{
+    display: flex;
+    flex-direction: row;
+    gap: 121px
+
+}
+.section-list-container{
+    display: flex;
+    flex-direction: row;
+    gap: 121px;
+}
+.tel-add{
+    margin-top: 0px;
+}
+.priv-pol-container{
+    margin-top: 125px;
+}
+}
