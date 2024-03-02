@@ -21,7 +21,7 @@
       <button class="btn-shop-desctop" type="button">Shop now</button>
     </nav>
     <div class="btn-menu-container">
-      <button class="btn-menu" type="button" onclick="location.href='#menu-on'">
+      <button class="btn-menu" type="button" data-menu-open>
         <svg class="menu-icon" width="32" height="32">
           <use href="./img/icons.svg#icon-menu"></use>
         </svg>
@@ -29,18 +29,18 @@
     </div>
   </div>
 </header>
-<div class="tablet-menu-wrap">
+<div class="tablet-menu-wrap" data-menu>
   <div id="menu-on" class="mobile-container">
-    <button class="btn-close" type="button">
+    <button class="btn-close" type="button" data-menu-close>
       <svg class="icon-menu-close" width="32" height="32" viewBox="0 0 32 32">
         <use href="./img/icons.svg#icon-close"></use>
       </svg>
     </button>
     <nav class="nav-container">
       <ul class="nav-list">
-        <li><a class="nav-link first" href="#How It Works">How It Works</a></li>
-        <li><a class="nav-link second" href="#Vegetables">Vegetables</a></li>
-        <li><a class="nav-link third" href="#Reviews">Reviews</a></li>
+        <li><a class="nav-link" href="#How It Works">How It Works</a></li>
+        <li><a class="nav-link" href="#Vegetables">Vegetables</a></li>
+        <li><a class="nav-link" href="#Reviews">Reviews</a></li>
       </ul>
     </nav>
     <div class="btn-shop-container">
