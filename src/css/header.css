@@ -92,6 +92,10 @@
     top: 32px;
   }
 
+  .logo-container {
+    margin-right: 380px;
+  }
+
   .nav-container-desctop {
     display: flex;
     align-items: center;
@@ -110,6 +114,16 @@
     color: #fbfbfb;
   }
 
+  .logo-img:hover,
+  .logo:focus {
+    background-color: #747bff;
+  }
+
+  .nav-link-desctop:hover,
+  .nav-link-desctop:focus {
+    color: #747bff;
+  }
+
   .btn-shop-desctop {
     border-radius: 30px;
     border: none;
@@ -123,6 +137,11 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     margin-left: 12px;
+  }
+
+  .btn-shop-desctop:hover,
+  .btn-shop-desctop:focus {
+    background-color: #622133;
   }
 
   .btn-menu {
