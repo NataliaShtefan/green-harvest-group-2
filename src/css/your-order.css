@@ -189,16 +189,14 @@
   gap: 10px;
   border-radius: 30px;
   display: block;
-  border: none;
+  border: 1px solid #576f35;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-button:hover,
 .form-button:focus {
   background-color: #fbfbfb;
-  border: 1px solid #576f35;
   color: #576f35;
 }
 
@@ -236,14 +234,12 @@
 }
 .socials-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover,
 .socials-link:focus {
   color: #7a3145;
-  border-bottom: 1px solid #7a3145;
 }
 
 .social-link-li {
