@@ -23,9 +23,7 @@
   }
 }
 
-
 @media screen and (min-width: 1280px) {
-
   .title {
     display: flex;
     padding: 0;
@@ -100,7 +98,7 @@
     flex-shrink: 0;
     width: 650px;
     height: 800px;
-    margin: 0;
+    margin: 0 -100px 0 0;
     background-image: linear-gradient(
         to bottom,
         rgba(20, 20, 20, 0.2),
