@@ -1,0 +1,122 @@
+.veget-section {
+  background-color: #7a3145;
+}
+
+.veget-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.veget-color-word {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.veget-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.veget-list-item {
+  background-color: #fbfbfb;
+  border-radius: 40px;
+  padding: 32px 26px;
+  margin-bottom: 20px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.veget-list-item:hover,
+.veget-list-item:focus {
+  box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.veget-item-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  color: #7a3145;
+  margin-bottom: 12px;
+}
+
+.veget-item-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: #141414;
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 375px) {
+  .veget-section {
+    min-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .veget-section {
+    min-width: 768px;
+  }
+  .veget-title {
+    font-size: 64px;
+    line-height: 1;
+    width: 508px;
+    margin-bottom: 50px;
+  }
+
+  .veget-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+  }
+
+  .veget-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 28px;
+  }
+
+  .veget-list-item {
+    width: calc((100% - 20px) / 2);
+    margin-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .veget-item-title {
+    font-size: 32px;
+  }
+
+  .veget-item-text {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .veget-title {
+    margin-bottom: 25px;
+  }
+
+  .veget-text {
+    width: 626px;
+  }
+
+  .veget-list {
+    column-gap: 21px;
+  }
+
+  .veget-list-item {
+    padding: 32px;
+    width: calc((100% - 42px) / 3);
+  }
+}
