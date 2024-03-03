@@ -3,6 +3,18 @@
   max-width: 375px;
 }
 
+@media screen and (min-width: 768px) {
+  .section-bg {
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .step {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .container-img {
   padding: 40px 20px;
   margin-left: auto;
@@ -25,7 +37,13 @@
     margin-top: -100px;
     margin-right: -32px;
     margin-left: -32px;
-    width: 768px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-img {
+    padding: 100px;
   }
 }
 
@@ -34,8 +52,8 @@
 }
 
 .container-step {
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -120,7 +138,8 @@
   align-items: center;
   background-color: #fbfbfb;
   border-radius: 15px;
-  padding: 12px 27px 12px 24px;
+  padding-right: 27px;
+  /* padding: 12px 27px 12px 24px; */
   max-width: 335px;
   height: 76px;
   font-weight: 500;
@@ -145,6 +164,7 @@ ol li:last-child {
 }
 
 .step-item-numbers {
+  margin-left: 29px;
   margin-right: 24px;
   width: 42px;
   height: 42px;
@@ -163,6 +183,12 @@ ol li:last-child {
 
 .step-item-span {
   max-width: 208px;
+}
+
+@media screen and (min-width: 768px) {
+  .step-item-span {
+    max-width: 325px;
+  }
 }
 
 .step-item-span-box {
