@@ -1,4 +1,4 @@
-<section class="section order">
+<section class="section order" id="formlink">
   <div class="container">
     <h2 class="order-title">
       Fresh <span class="order-title-span">Harvest</span> Box has got you
@@ -19,8 +19,8 @@
           and we will contact you !
         </p>
 
-        <form class="order-form" id="formlink">
-          <label class="order-form-element" for="">
+        <form class="order-form">
+          <label class="order-form-element" for="user-name">
             <input
               class="order-form-input"
               type="text"
@@ -32,7 +32,7 @@
             />
           </label>
 
-          <label class="order-form-element" for="">
+          <label class="order-form-element" for="user-email">
             <input
               class="order-form-input"
               type="email"
@@ -40,14 +40,15 @@
               id="user-email"
               placeholder="Email"
               required
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+"
             />
             <p class="text-valid">Succes!</p>
             <p class="text-invalid">Invalid email, try again</p>
           </label>
 
-          <label class="order-form-element-comment" for="">
+          <label class="order-form-element-comment" for="user-comment">
             <textarea
+              id="user-comment"
               class="order-form-comment"
               name="user-comment"
               placeholder="Comment"
@@ -62,19 +63,19 @@
         <picture class="socials-img">
           <source
             media="(min-width: 1280px)"
-            srcset="./img/Order-desk-1x.jpg 1x, ./img/Order-desk-2x.jpg 2x"
+            srcset="./img/Order-desk-1x.png 1x, ./img/Order-desk-2x.png 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="./img/Order-tab-1x.jpg 1x, ./img/Order-tab-2x.jpg 2x"
+            srcset="./img/Order-tab-1x.png 1x, ./img/Order-tab-2x.png 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="./img/Order-mob-1x.jpg 1x, ./img/Order-mob-2x.jpg 2x"
+            srcset="./img/Order-mob-1x.png 1x, ./img/Order-mob-2x.png 2x"
           />
           <img
             class="socials-picture"
-            src="./img/Order-desk-2x.jpg"
+            src="./img/Order-desk-2x.png"
             alt="Making Smoothie"
             width="528"
           />
