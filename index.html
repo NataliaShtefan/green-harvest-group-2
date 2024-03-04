@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/green-harvest-group-2/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/green-harvest-group-2/assets/menu-d4590c58.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/green-harvest-group-2/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/green-harvest-group-2/assets/index-dcda06d5.css">
+    <link rel="stylesheet" href="/green-harvest-group-2/assets/index-6c589570.css">
   </head>
   <body>
     <header class="header">
@@ -329,7 +329,7 @@
   </div>
 </section>
 
-      <section class="section order">
+      <section class="section order" id="formlink">
   <div class="container">
     <h2 class="order-title">
       Fresh <span class="order-title-span">Harvest</span> Box has got you
@@ -350,8 +350,8 @@
           and we will contact you !
         </p>
 
-        <form class="order-form" id="formlink">
-          <label class="order-form-element" for="">
+        <form class="order-form">
+          <label class="order-form-element" for="user-name">
             <input
               class="order-form-input"
               type="text"
@@ -363,7 +363,7 @@
             />
           </label>
 
-          <label class="order-form-element" for="">
+          <label class="order-form-element" for="user-email">
             <input
               class="order-form-input"
               type="email"
@@ -371,14 +371,15 @@
               id="user-email"
               placeholder="Email"
               required
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+"
             />
             <p class="text-valid">Succes!</p>
             <p class="text-invalid">Invalid email, try again</p>
           </label>
 
-          <label class="order-form-element-comment" for="">
+          <label class="order-form-element-comment" for="user-comment">
             <textarea
+              id="user-comment"
               class="order-form-comment"
               name="user-comment"
               placeholder="Comment"
@@ -393,19 +394,19 @@
         <picture class="socials-img">
           <source
             media="(min-width: 1280px)"
-            srcset="/green-harvest-group-2/assets/Order-desk-1x-a50c17c4.jpg 1x, /green-harvest-group-2/assets/Order-desk-2x-9e1ff28c.jpg 2x"
+            srcset="/green-harvest-group-2/assets/Order-desk-1x-0b7cd1db.png 1x, /green-harvest-group-2/assets/Order-desk-2x-9a50b4e4.png 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/green-harvest-group-2/assets/Order-tab-1x-511f1480.jpg 1x, /green-harvest-group-2/assets/Order-tab-2x-34871264.jpg 2x"
+            srcset="/green-harvest-group-2/assets/Order-tab-1x-6a7603db.png 1x, /green-harvest-group-2/assets/Order-tab-2x-e2794bef.png 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="/green-harvest-group-2/assets/Order-mob-1x-c47227ec.jpg 1x, /green-harvest-group-2/assets/Order-mob-2x-05c76e74.jpg 2x"
+            srcset="/green-harvest-group-2/assets/Order-mob-1x-d20f7f95.png 1x, /green-harvest-group-2/assets/Order-mob-2x-fa420a37.png 2x"
           />
           <img
             class="socials-picture"
-            src="/green-harvest-group-2/assets/Order-desk-2x-9e1ff28c.jpg"
+            src="/green-harvest-group-2/assets/Order-desk-2x-9a50b4e4.png"
             alt="Making Smoothie"
             width="528"
           />
@@ -515,8 +516,9 @@
     <div class="priv-pol-container">
       <ul class="priv-pol-list">
         <li class="priv-pol">
-          <a class="down-link" href="">Privacy Policy</a>
-          <a class="down-link" href="">Cookie settings</a>
+          <a class="down-link set" href="">Privacy Policy</a>
+          <span class="down-link">/</span>
+          <a class="down-link set" href="">Cookie settings</a>
         </li>
         <li class="down-link">©Green Harvest 2023</li>
       </ul>
