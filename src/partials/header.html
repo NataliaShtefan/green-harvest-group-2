@@ -18,7 +18,9 @@
         <li><a class="nav-link-desctop" href="#vegetables">Vegetables</a></li>
         <li><a class="nav-link-desctop" href="#reviews">Reviews</a></li>
       </ul>
-      <button class="btn-shop-desctop" type="button">Shop now</button>
+      <a href="#formlink" class="btn-shop-desctop" data-menu-close>
+        Shop now
+      </a>
     </nav>
     <div class="btn-menu-container">
       <button class="btn-menu" type="button" data-menu-open>
@@ -30,7 +32,7 @@
   </div>
 </header>
 <div class="tablet-menu-wrap" data-menu>
-  <div id="menu-on" class="mobile-container">
+  <div class="mobile-container">
     <button class="btn-close" type="button" data-menu-close>
       <svg class="icon-menu-close" width="32" height="32" viewBox="0 0 32 32">
         <use href="./img/icons.svg#icon-close"></use>
@@ -38,13 +40,17 @@
     </button>
     <nav class="nav-container">
       <ul class="nav-list">
-        <li><a class="nav-link" href="#hiv">How It Works</a></li>
-        <li><a class="nav-link" href="#vegetables">Vegetables</a></li>
-        <li><a class="nav-link" href="#reviews">Reviews</a></li>
+        <li>
+          <a class="nav-link" href="#hiv" data-menu-close>How It Works</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#vegetables" data-menu-close>Vegetables</a>
+        </li>
+        <li><a class="nav-link" href="#reviews" data-menu-close>Reviews</a></li>
       </ul>
     </nav>
     <div class="btn-shop-container">
-      <button class="btn-shop" type="button">Shop now</button>
+      <a href="#formlink" class="btn-shop" data-menu-close> Shop now </a>
     </div>
   </div>
 </div>

@@ -1,11 +1,11 @@
 .section-bg {
   background-color: #576f35;
 }
-
 @media screen and (min-width: 1280px) {
   .step {
     display: flex;
-    justify-content: space-between;
+    padding: 0;
+    margin: 0 -100px 0 0;
   }
 }
 
@@ -21,7 +21,7 @@
 
 @media screen and (min-width: 375px) {
   .container-img {
-    max-width: 375px;
+    width: calc(100% + 40px);
   }
 }
 
@@ -31,7 +31,7 @@
     margin-top: -100px;
     margin-right: -32px;
     margin-left: -32px;
-    max-width: 768px;
+    width: calc(100% + 64px);
   }
 }
 
@@ -64,6 +64,12 @@
     height: 559px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .steps-picture {
+    max-width: 430px;
+    height: 559px;
+  }
+}
 
 .container-step {
   margin-left: auto;
@@ -80,7 +86,7 @@
   .container-step {
     padding-left: 127px;
     padding-right: 127px;
-    min-width: 768px;
+    max-width: 768px;
     padding-top: 100px;
   }
 }
@@ -95,14 +101,13 @@
     max-width: 650px;
   }
 }
-
 .step-title {
   padding-top: 80px;
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 28px;
   line-height: 1;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   color: #fbfbfb;
 }
@@ -191,7 +196,7 @@
 }
 
 .item-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
@@ -212,6 +217,8 @@ ol li:last-child {
 @media screen and (min-width: 768px) {
   .step-item {
     max-width: 450px;
+    font-size: 16px;
+    line-height: 1.25;
   }
 }
 
