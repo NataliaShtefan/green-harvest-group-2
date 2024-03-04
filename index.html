@@ -358,34 +358,25 @@
               name="user-name"
               id="user-name"
               placeholder="Full Name"
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+"
               required
             />
           </label>
 
           <label class="order-form-element" for="user-email">
-            <!-- <input
+            <input
               class="order-form-input"
               type="email"
               name="user-email"
               id="user-email"
               placeholder="Email"
               required
-              pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+"
-            /> -->
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            />
+            <span class="text-valid">Succes!</span>
+            <span class="text-invalid">Invalid email, try again</span>
           </label>
-          <p class="text-valid">Succes!</p>
-          <p class="text-invalid">Invalid email, try again</p>
 
-          <input
-            class="order-form-input"
-            type="email"
-            name="user-email"
-            id="user-email"
-            placeholder="Email"
-            required
-            pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+"
-          />
           <label class="order-form-element-comment" for="user-comment">
             <textarea
               id="user-comment"
