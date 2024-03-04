@@ -364,7 +364,7 @@
           </label>
 
           <label class="order-form-element" for="user-email">
-            <input
+            <!-- <input
               class="order-form-input"
               type="email"
               name="user-email"
@@ -372,11 +372,19 @@
               placeholder="Email"
               required
               pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+"
-            />
+            /> -->
             <p class="text-valid">Succes!</p>
             <p class="text-invalid">Invalid email, try again</p>
           </label>
-
+          <input
+            class="order-form-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Email"
+            required
+            pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+"
+          />
           <label class="order-form-element-comment" for="user-comment">
             <textarea
               id="user-comment"
