@@ -313,7 +313,6 @@
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  text-wrap: nowrap;
   border: none;
   border-radius: 30px;
   padding: 16px 41px;
