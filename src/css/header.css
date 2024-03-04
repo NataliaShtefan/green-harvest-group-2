@@ -8,9 +8,6 @@
   max-width: 375px;
 }
 
-.no-scroll {
-  overflow: hidden;
-}
 
 .html {
   scroll-behavior: smooth;
@@ -20,6 +17,10 @@
   .nav-container-desctop {
     display: none;
   }
+
+.no-scroll {
+  overflow: hidden;
+}
 
   .nav-list {
     align-items: center;
@@ -135,6 +136,11 @@
   .header {
     top: 32px;
   }
+
+.tablet-menu-wrap{
+  display: none;
+}
+
 
   .logo-container {
     margin-right: 380px;
@@ -315,6 +321,7 @@
   line-height: 129%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
+  background-color: #fbfbfb;
   color: #7a3145;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
